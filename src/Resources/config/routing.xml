@@ -7,7 +7,6 @@
     <services>
         <service id="sensio_framework_extra.routing.loader.annot_class" class="Sensio\Bundle\FrameworkExtraBundle\Routing\AnnotatedRouteControllerLoader">
             <tag name="routing.loader" />
-            <argument type="service" id="annotation_reader" />
             <deprecated package="sensio/framework-extra-bundle" version="5.2">The "%service_id%" service is deprecated since version 5.2</deprecated>
         </service>
 
