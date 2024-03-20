@@ -27,7 +27,7 @@ class Configuration implements ConfigurationInterface
      *
      * @return NodeInterface
      */
-    public function getConfigTreeBuilder()
+    public function getConfigTreeBuilder() : TreeBuilder
     {
         $treeBuilder = new TreeBuilder('sensio_framework_extra');
 
