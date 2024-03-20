@@ -7,7 +7,6 @@
     <services>
         <service id="sensio_framework_extra.controller.listener" class="Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener">
             <tag name="kernel.event_subscriber" />
-            <argument type="service" id="annotation_reader" />
         </service>
     </services>
 </container>
